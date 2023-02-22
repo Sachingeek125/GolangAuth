@@ -35,4 +35,3 @@ if Login is sucessful, The respon![signin drawio](https://user-images.githubuser
 se will also contain an HTTP cookie with the name "session_id". This cookie must be sent with every subsequent request to the service.
 
 3.Logout: To log out, send a GET request to /logout. Here you need to provide a session_id so that it deletes that session_id from mongodb and user gets logout.
-![thxgd73x4fv79n9dy6if](https://user-images.githubusercontent.com/76638891/220615245-8b51f641-25ff-4264-b0af-1ca01e5d206b.jpg)
