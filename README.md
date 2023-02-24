@@ -30,8 +30,8 @@ It contains 3 apis:
   "email": "your_email",
   "password": "your_password"
 }
+[signin drawio](https://user-images.githubusercontent.com/76638891/220615185-5bf40187-d296-402c-8ab6-973820aae1f8.svg)
  
-if Login is sucessful, The respon![signin drawio](https://user-images.githubusercontent.com/76638891/220615185-5bf40187-d296-402c-8ab6-973820aae1f8.svg)
-se will also contain an HTTP cookie with the name "session_id". This cookie must be sent with every subsequent request to the service.
+if Login is sucessful, The response will also contain an HTTP cookie with the name "session_id". This cookie must be sent with every subsequent request to the service.
 
 3.Logout: To log out, send a GET request to /logout. Here you need to provide a session_id so that it deletes that session_id from mongodb and user gets logout.
